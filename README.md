@@ -1,3 +1,3 @@
 # cpp_autoclicker
 Autoclicks on whatever position your mouse is. 
-Press X for starting the program and Z to stop it and drag your cursor where you want to click.
+Press A for starting the program and B to stop it and drag your cursor where you want to click.
