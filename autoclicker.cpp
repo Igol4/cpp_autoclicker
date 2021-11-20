@@ -4,18 +4,18 @@
 using namespace std;
 void menu()
 {
-	cout << "Press 'X' to enable and 'Z' to disable autoclicker\n";
+	cout << "Press 'A' to enable and 'B' to disable autoclicker\n"; //you can change letters by simply replacing them in if and else if block//
 }
 void clicker()
 {
 	bool click = false;
 	while (true)
 	{
-		if(GetAsyncKeyState('X'))
+		if(GetAsyncKeyState('A'))
 		{
 			click = true;
 		}
-		else if(GetAsyncKeyState('Z'))
+		else if(GetAsyncKeyState('B'))
 		{
 			click = false;
 		}
@@ -23,7 +23,7 @@ void clicker()
 		{
 			mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,0,0);
 			mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0);
-			Sleep(10);
+			Sleep(10); //time between each click//
 			
 		}
 	}
