@@ -15,7 +15,6 @@ void clicker()
 	bool click = false;
 	while (true)
 	{
-	
 		if(GetAsyncKeyState('A'))
 		{
 			click = true;
