@@ -8,7 +8,7 @@ void menu()
 {
 	cout << "Input difference between each click(miliseconds)\n";
 	cin >> a;
-	cout << "Press 'A' to enable and 'B' to disable autoclicker\n"; //you can change letters by simply replacing them in if and else if block
+	cout << "Press 'A' to enable and 'B' to disable autoclicker, C to continue, R to restart and E to exit.\n"; //you can change letters by simply replacing them in if and else if block
 }
 void clicker()
 {
@@ -22,22 +22,17 @@ void clicker()
 		else if(GetAsyncKeyState('B'))
 		{
 			click = false;
-			cout << "Do you want to restart the program or continue with current settings [c/r]\n?";
-			cin >> b;
-			if(b == 'r')
-			{   
-				menu();
-			}
-			else if(b == 'c')
-			{
-				cout << "Press 'A' to enable and 'B' to disable autoclicker\n";
-			}
-			else
-			{
-				cout << "You had a typo, type c to continue or r to restart. Program will close now.\n";
-				Sleep(4000);
-				exit(0);
-			}
+		}
+		else if(GetAsyncKeyState('C'))
+		{
+		}
+		else if(GetAsyncKeyState('R'))
+		{
+			menu();
+		}
+		else if(GetAsyncKeyState('E'))
+		{
+			exit(0);
 		}
 		if(click == true)
 		{
