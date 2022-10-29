@@ -5,4 +5,4 @@ Press A for starting the program and B to stop it and drag your cursor where you
 
 autoclicker.cpp is the source file and autoclicker.exe is compiled file.
 
-paypal.me/Igol4
+[paypal.me/Igol4](paypal.me/Igol4)
