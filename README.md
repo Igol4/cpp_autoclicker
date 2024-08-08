@@ -1,8 +1,11 @@
 # cpp_autoclicker
-Autoclicks on whatever position your mouse is. 
+Command line C++ autoclicker, utoclicks on whatever position your mouse is. 
 
-Press A for starting the program and B to stop it and drag your cursor where you want to click. Press R to restart the program, E to exit and C to continue wiwth previus timings.
+Controls:
+  - A - start autoclicker
+  - B - stop autoclicker
+  - C - continue with selected interval
+  - R - restart autoclicker (to reset interval)
+  - E - exit autoclicker
 
-autoclicker.cpp is the source file and autoclicker.exe is compiled file.
-
-[paypal.me/Igol4](paypal.me/Igol4)
+Enjoy!
