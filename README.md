@@ -1,5 +1,5 @@
 # cpp_autoclicker
-Command line C++ autoclicker, utoclicks on whatever position your mouse is. 
+Command line C++ autoclicker, utoclicks on whatever position your mouse is. **WINDOWS ONLY**
 
 Controls:
   - A - start autoclicker
